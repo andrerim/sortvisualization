@@ -3,7 +3,7 @@ var ctx = canvas.getContext('2d');
 
 const canvW = canvas.width;
 const canvH = canvas.height;
-const lineW = 30;   
+const lineW = 5;   
 const amountOfElements = Math.ceil(canvW/lineW);
 
 
