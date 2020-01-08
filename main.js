@@ -1,8 +1,6 @@
 var canvas = document.getElementById("canvas");
 
 
-
-
 const canvW = canvas.width;
 const canvH = canvas.height;
 const lineW = 5;
@@ -14,6 +12,7 @@ function clearCanv(ctx){
 }
 
 function drawEl(ctx, element, index){
+    /* ctx.fillStyle = "red" */
     ctx.fillRect(index*lineW, canvH - element, lineW, canvH);
 };
 
