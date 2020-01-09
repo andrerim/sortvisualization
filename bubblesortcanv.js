@@ -1,4 +1,5 @@
-var ctx = canvas.getContext("2d");
+var bubbleCanv = document.getElementById("bubbleCanv");
+var bCtx = bubbleCanv.getContext("2d");
 
 function bubbleSort(elements, elLength) {
   let swapped = false;
@@ -8,8 +9,8 @@ function bubbleSort(elements, elLength) {
       let tempEl = elements[i];
       elements[i] = elements[i + 1];
       elements[i + 1] = tempEl;
-      clearCanv(ctx);
-      drawCanv(ctx, elements);
+      clearCanv(bCtx);
+      drawCanv(bCtx, elements);
       swapped = true;
     }
 

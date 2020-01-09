@@ -8,14 +8,37 @@
     <div class="canvas">
       <h1>Bubblesort</h1>
       <canvas
-        id="canvas"
+        id="bubbleCanv"
         width="500"
         height="400"
         style="border: solid 2px black; "
       ></canvas>
+      <button onClick="startBubbleSort()">start</button>
+    </div>
+    <div class="canvas">
+      <h1>Insertionsort</h1>
+      <canvas
+        id="insCanv"
+        width="500"
+        height="400"
+        style="border: solid 2px black; "
+      ></canvas>
+      <button onClick="startQuickSort()">start</button>
+    </div>
+    <div class="canvas">
+      <h1>Quicksort</h1>
+      <canvas
+        id="quickCanv"
+        width="500"
+        height="400"
+        style="border: solid 2px black; "
+      ></canvas>
+      <button onClick="startQuickSort()">start</button>
     </div>
 
     <script src="bubblesortcanv.js"></script>
+    <script src="quicksort.js"></script>
+    <script src="insertionsort.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
